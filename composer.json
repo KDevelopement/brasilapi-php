@@ -1,16 +1,35 @@
 {
-  "name": "kseven/brasilapi-php",
-  "description": "BrasilAPI PHP Library",
-  "type": "lib",
-  "homepage": "https://brasilapi.com.br",
+  "name": "kseven/brasilapi-ph",
+  "type": "library",
+  "description": "BrasilAPI PHP SDK",
+  "keywords": [
+    "Kseven", "cep", "brazil", "zipcode", "address", "enderecos", "api"
+  ],
+  "homepage": "https://github.com/KS7ven/brasilapi-php",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Brasil API",
+      "homepage": "https://brasilapi.com.br",
+      "role": "API Server And EndPoints"
+    },
+    {
+      "name": "KSeven",
+      "email": "contato@kseven.dev.br",
+      "homepage": "https://kseven.dev.br",
+      "role": "Developer Lib"
+    }
+  ],
+  "require": {
+      "php": "^7.4 || ^8.0",
+      "guzzlehttp/guzzle": "^7.4"
+  },
   "autoload": {
     "psr-4": {
       "BrasilApi\\": "src/"
     }
   },
-  "require": {
-    "php": "^7.4",
-    "guzzlehttp/guzzle": "^7.4"
+  "config": {
+    "sort-packages": true
   }
 }
