@@ -1,0 +1,16 @@
+{
+  "name": "kseven/brasilapi-php",
+  "description": "BrasilAPI PHP Library",
+  "type": "lib",
+  "homepage": "https://brasilapi.com.br",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BrasilApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^7.4"
+  }
+}
